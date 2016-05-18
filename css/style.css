@@ -15,19 +15,16 @@
 * {
     padding: 0px;
     margin: 0px;
-    
 }
 
 html {
-    
     
 }
 
 body {
     font-family: 'Share', cursive;
-    background-color: #0E613F;
+    background-color: #127A50;
     color: #093B26;
-    
 }
 
 div.container {
@@ -35,10 +32,30 @@ div.container {
 }
 
 footer, header {
-    
+    padding: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Chewy', cursive;
-    
+}
+
+p {
+    font-family: 'Share', cursive;
+    color: #1DC781;
+}
+
+header {
+    text-align: center;
+    background-color: #148758;
+    border: 5px solid #0E613F;
+}
+
+main {
+    margin-top: 5%;
+    padding: 10px;
+    font-size: 18;
+}
+
+footer {
+    text-align: right;
 }
