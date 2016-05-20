@@ -1,0 +1,44 @@
+/* Fonts
+    Headlines: font-family: 'Chewy', cursive;
+    Paragraphs: font-family: 'Share', cursive;
+    
+*/
+
+/* Colors
+    093B26, (9,59,38), Dark Green
+    1DC781, (29,199,129), Light Green
+    127A50, (18,122,80), Neutral Green
+    148758, (20,135,88), Lightish Green
+    0E613F, (14,97,63), Darkish Green
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+html {
+    
+    
+}
+
+body {
+    font-family: 'Share', cursive;
+    background-color: #0E613F;
+    color: #093B26;
+    
+}
+
+div.container {
+    
+}
+
+footer, header {
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chewy', cursive;
+    
+}
