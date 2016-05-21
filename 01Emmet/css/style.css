@@ -5,29 +5,38 @@
 */
 
 /* Colors
-    093B26, (9,59,38), Dark Green
-    1DC781, (29,199,129), Light Green
-    127A50, (18,122,80), Neutral Green
-    148758, (20,135,88), Lightish Green
-    0E613F, (14,97,63), Darkish Green
+    #1DC781, (29,199,129), Light Green
+    #148758, (20,135,88), Lightish Green
+    #127A50, (18,122,80), Neutral Green
+    #0E613F, (14,97,63), Darkish Green
+    #093B26, (9,59,38), Dark Green
+    
+    #50E9FF, (80, 233, 255), White Cyan
+    #3DB6C7, (61, 182, 199), Light Cyan
+    #369FAD, (54, 159, 173), Neutral Cyan
+    #2A7C87, (42, 124, 135), Darkish Cyan
+
+    #49FF14, (73, 255, 20), Bright Gold
+    #3CD010, (60, 208, 16), Light Gold
+    #32AD0D, (50, 173, 13), Neutral Gold
+
 */
 
-* {
+* { /* clears inherited padding/margin */
     padding: 0px;
     margin: 0px;
-    
 }
 
+/* begin content general styling */
+
 html {
-    
     
 }
 
 body {
     font-family: 'Share', cursive;
-    background-color: #0E613F;
+    background-color: #1DC781;
     color: #093B26;
-    
 }
 
 div.container {
@@ -35,10 +44,58 @@ div.container {
 }
 
 footer, header {
-    
+    padding: 15px;
 }
+
+/* end of content general styling */
+
+
+/* begin font general styling */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Chewy', cursive;
+}
+
+p {
+    font-family: 'Share', cursive;
+    color: #1DC781;
+}
+
+a {
+    text-decoration: none;
+    color: #2A7C87;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #50E9FF;
     
 }
+
+a:visited {
+    color: #093B26;
+}
+
+/* end of font general styling */
+
+
+/* begin specific styling */
+
+header {
+    text-align: center;
+    background-color: #3DB6C7;
+    border: 5px solid #50E9FF;
+    color: black;
+}
+
+main {
+    margin-top: 5%;
+    padding: 10px;
+    font-size: 18;
+}
+
+footer {
+    text-align: right;
+}
+
+/* end of specific styling */
