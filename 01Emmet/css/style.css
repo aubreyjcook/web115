@@ -64,7 +64,6 @@ p {
 a {
     text-decoration: none;
     color: #2A7C87;
-    font-weight: 700;
 }
 
 a:hover {
@@ -88,6 +87,11 @@ header {
     color: black;
 }
 
+nav {
+    padding: 5px;
+    text-align: center;
+}
+
 main {
     margin-top: 5%;
     padding: 10px;
@@ -96,6 +100,25 @@ main {
 
 footer {
     text-align: right;
+}
+
+.button {
+    background: #49FF14;
+    border: none;
+    color: #093B26;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+    
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #32AD0D;
+    color: white;
 }
 
 /* end of specific styling */
