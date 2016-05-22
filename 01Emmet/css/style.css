@@ -5,21 +5,7 @@
 */
 
 /* Colors
-    #1DC781, (29,199,129), Light Green
-    #148758, (20,135,88), Lightish Green
-    #127A50, (18,122,80), Neutral Green
-    #0E613F, (14,97,63), Darkish Green
-    #093B26, (9,59,38), Dark Green
     
-    #50E9FF, (80, 233, 255), White Cyan
-    #3DB6C7, (61, 182, 199), Light Cyan
-    #369FAD, (54, 159, 173), Neutral Cyan
-    #2A7C87, (42, 124, 135), Darkish Cyan
-
-    #49FF14, (73, 255, 20), Bright Gold
-    #3CD010, (60, 208, 16), Light Gold
-    #32AD0D, (50, 173, 13), Neutral Gold
-
 */
 
 * { /* clears inherited padding/margin */
@@ -35,8 +21,7 @@ html {
 
 body {
     font-family: 'Share', cursive;
-    background-color: #1DC781;
-    color: #093B26;
+    background-image: url("../images/background.jpg");
 }
 
 div.container {
@@ -45,6 +30,9 @@ div.container {
 
 footer, header {
     padding: 15px;
+    background-color: black;
+    border: 5px solid darkslategray;
+    color: white;
 }
 
 /* end of content general styling */
@@ -58,21 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: 'Share', cursive;
-    color: #1DC781;
-}
-
-a {
-    text-decoration: none;
-    color: #2A7C87;
-}
-
-a:hover {
-    color: #50E9FF;
-    
-}
-
-a:visited {
-    color: #093B26;
 }
 
 /* end of font general styling */
@@ -82,20 +55,51 @@ a:visited {
 
 header {
     text-align: center;
-    background-color: #3DB6C7;
-    border: 5px solid #50E9FF;
-    color: black;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: inherit;
 }
 
 nav {
     padding: 5px;
     text-align: center;
+    background-color: black;
 }
 
-main {
-    margin-top: 5%;
+main, article {
     padding: 10px;
     font-size: 18;
+    text-align: center;
+    background-color: white;
+}
+
+main h4 {
+    background-color: black;
+    color: white;
+}
+
+article h4 { /* Mrs. Winchester: Is it possible to share these stylings in one selector? using syntax "main h4, article h4 {*some code*}" does not seem to work */
+    background-color: black;
+    color: white;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    color: #50E9FF;    
+}
+
+main a:visited {
+    color: #093B26;
 }
 
 footer {
@@ -103,9 +107,9 @@ footer {
 }
 
 .button {
-    background: #49FF14;
+    background: white;
     border: none;
-    color: #093B26;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -117,7 +121,7 @@ footer {
 }
 
 .button:hover {
-    background-color: #32AD0D;
+    background-color: darkslategray;
     color: white;
 }
 
