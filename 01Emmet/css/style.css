@@ -29,6 +29,7 @@ body {
 div.container {
     border: 10px double white;
     border-radius: 5px;
+    color: darkblue;
 }
 
 footer, header {
@@ -41,7 +42,7 @@ footer, header {
 img {
     max-width: 100%;
     height: auto;
-    border: 3px solid black;
+    border: 3px solid skyblue;
 }
 
 /* end of content general styling */
@@ -51,6 +52,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Chewy', cursive;
+    color: skyblue;
 }
 
 p {
@@ -70,7 +72,7 @@ header {
 }
 
 header a {
-    color: white;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -97,22 +99,21 @@ main, article {
 
 h4 {
     background-color: black;
-    color: white;
     border: 5px solid black;
     border-radius: 5px;
 }
 
 main a {
     text-decoration: none;
-    color: darkblue;
-}
-
-main a:hover {
     color: darkslategray;
 }
 
+main a:hover {
+    color: mediumslateblue;
+}
+
 main a:visited {
-    color: darkslateblue;
+    color: lightslategray;
 }
 
 footer {
@@ -121,7 +122,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -134,9 +135,9 @@ ul {
 }
 
 .button {
-    background: white;
+    background-color: rgb(33,33,33);
+    color: lightsteelblue;
     border: none;
-    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -148,11 +149,12 @@ ul {
 }
 
 .button:hover {
-    background-color: darkslategray;
-    color: silver;
+    background-color: floralwhite;
+    color: midnightblue;
 }
 
 #webList {
+    background-color: cadetblue;
     text-align: center;
     list-style: none;
 }
