@@ -23,6 +23,7 @@ body {
     font-family: 'Share', cursive;
     background-image: url("../images/background.jpg");
     opacity: .85;
+    filter: alpha(opacity=85);
     margin: 20px;
 }
 
@@ -43,6 +44,7 @@ img {
     max-width: 100%;
     height: auto;
     border: 3px solid skyblue;
+    opacity: 1;
 }
 
 /* end of content general styling */
