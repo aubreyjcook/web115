@@ -1,0 +1,3 @@
+[submodule "photogallery"]
+	path = photogallery
+	url = https://github.com/aubreyjcook/photogallery
